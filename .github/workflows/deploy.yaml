@@ -8,7 +8,7 @@ jobs:
   actions-codigofacilito:
      runs-on: ubuntu-latest
      steps:
-        run: echo "hacemos pull del codigo"
-        run: echo "Correr migraciones"
-        run: echo "Generar binario"
-        run: echo "Publicar version" 
+        - run: echo "hacemos pull del codigo"
+        - run: echo "Correr migraciones"
+        - run: echo "Generar binario"
+        - run: echo "Publicar version" 
